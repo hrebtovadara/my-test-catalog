@@ -1,24 +1,36 @@
+Тестовое задание:
+
+Необходимо отобразить на странице список товаров в момент загрузки страницы. Данные для каждого товара можно получить из файла product.json.
+
+Основные требование и функционал:
+1.	У кнопки купить должен быть атрибут «data-product-id» с уникальным «id» товара.
+2.	Для картинок использовать строковый модификатор  ‘_220x220_1’. (т.е. этот модификатор должен появиться перед расширением файла)
+3.	По клику изменяется количество товара. 
+4.	Переключение стоимость товара 
+
+Данные для цен можно так получить из product.json. 
+Например:
+priceGoldAlt - цена по карте за м.кв., 
+priceRetailAlt - цена стандартная за м.кв.
+priceGold - цена по карте за упаковку
+priceRetail - цена стандартная за упаковку
+Если какие-то данные отсутствуют в product.json, можно использовать любые случайные значения. 
+Требования к браузерам:
+•	MS Internet Explorer 10+,
+•	Google Chrome 35+,
+•	Mozilla Firefox 30+,
+•	Opera 20+,
+•	Safari 8+.
+
+
+
 # my-test-catalog
 
 ## Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
