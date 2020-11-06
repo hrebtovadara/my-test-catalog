@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:hrebtovadara/catalog-products.git master:gh-pages
+git push -f git@github.com:hrebtovadara/my-test-catalog.git master:gh-pages
 
 cd -
