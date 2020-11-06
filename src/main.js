@@ -5,6 +5,12 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+      ? '/catalog-products/'
+      : '/'
+}
+
 new Vue({
   router,
   store,
