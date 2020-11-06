@@ -3,13 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
-
-module.exports = {
+Vue.config.productionTip = module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
       ? '/catalog-products/'
       : '/'
 }
+
+
 
 new Vue({
   router,
