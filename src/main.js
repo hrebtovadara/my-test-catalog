@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = module.exports = {
+Vue.config.js = module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
       ? '/catalog-products/'
       : '/'
